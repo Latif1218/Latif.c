@@ -1,0 +1,9 @@
+int main()
+{
+  char U;
+  printf("enter any uppercase letter : ");
+   scanf("%c",&U);
+
+  printf("the lowercase letter : %c",U+32);
+  getch ();
+}
