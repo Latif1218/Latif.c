@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    char Upper , lower;
+
+    printf("enter any uppercase latter : ");
+    scanf("%c",&Upper);
+
+    lower=tolower(Upper);
+    printf("lowercase latter is = %c",lower);
+    getch ();
+}
