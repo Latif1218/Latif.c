@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main ()
+{
+    double X;
+    printf("enter X = ");
+    scanf("%lf",&X);
+   // printf("enter y = ");//
+   // scanf("%d",&y);//
+
+    double result=exp(X);
+
+    printf("exp(%lf)=%lf\n",X,result);
+
+    getch ();
+}
