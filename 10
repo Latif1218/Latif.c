@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main ()
+{
+    double X;
+    printf("enter X = ");
+    scanf("%lf",&X);
+   
+    double result=log(X);
+
+    printf("log(%lf)=%lf\n",X,result);
+    
+    getch ();
+}
